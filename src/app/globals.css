@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .my-inputs {
+    @apply h-12 w-full rounded-sm border border-gray-400 px-3;
+  }
+
+  .my-labels {
+    @apply w-fit rounded-sm bg-[#000] p-3 capitalize text-white;
+  }
+
+  /* previous color --> #6772FF */
+  .my-button {
+    @apply flex h-12 w-full max-w-[300px] items-center justify-center rounded-sm bg-[#000] px-3 text-white;
+  }
+
+  .word-spacer {
+    word-spacing: 12px;
+  }
+
+  .wrapper {
+    max-width: 90rem;
+  }
+}
